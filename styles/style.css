@@ -90,7 +90,7 @@ body{
     margin-top: 30px;
     padding: 10px;
     border: none;
-
+    color: white;
 }
 .btn2{
     border-radius: 8px;
@@ -99,7 +99,7 @@ body{
     margin-top: 30px;
     padding: 10px;
     border: none;
-
+    color: white;
 }
 .btn3{
     border-radius: 8px;
@@ -108,6 +108,7 @@ body{
     margin-top: 30px;
     padding: 10px;
     border: none;
+    color: white;
 
 }
 .section{
@@ -234,6 +235,12 @@ body{
     text-align: center;
 
 }
+.text-div h1{
+    font-family: Fira Sans;
+}
+.text-div p{
+    font-family: Fira Sans;
+}
 .alt2{
     background-color: white;
     margin: 20px auto;
@@ -261,9 +268,7 @@ body{
     background-color: yellowgreen;
     color: black;
 }
-.home{
-    
-}
+
 .home1{
     width: 90%;
     margin: 0 auto;
@@ -273,6 +278,35 @@ body{
     background-repeat: no-repeat;
     background-position: 21px 12px;
 }
+.combo{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    font-family: Fira Sans;
+}
 
-
+.input-container{
+    border: 1px solid red;
+    display: flex;
+    
+}
+.input-container input{
+    width: 80%;
+    height: 40px;
+}
+.input-container button{
+    width: 20%;
+    height: 40px;
+}
+.combo div div h1,p{
+    margin-bottom: 15px;
+}
+.combo div .input-container{
+    margin-bottom: 15px;
+}
 
