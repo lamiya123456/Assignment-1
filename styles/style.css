@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Fira Sans", serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+/* benner section* */
+#hero{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 24px ;
+    flex-direction: row;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+    background: rgb(198, 228, 214);
+    align-items: center;
+    background-size: cover;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.hero-content .hero1{
+    color: black;
+    font-family: Fira Sans;
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.hero-content .hero2{
+      font-size: 52px;
+      font-family: Fira Sans;
+      font-weight: 700;
+
+}
+.hero-content .btn{
+    color:  rgb(255, 255, 255);
+    background: rgb(0, 106, 80);
+    border:none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 17px 34px 17px 34px;
+    margin-top: 24px;
+    font-family: Fira Sans;
+  
+}
+.hero3{
+    margin-top: 80px;
+}
+/* benner section # */
+.parent{
+    display: flex;
+    justify-content:space-between;
+    width: 90%;
+    margin: 30px auto;
+    
+}
+.parent .card{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    font-family: Fira Sans;
+    width: 32.5%;
+     /* height: 200px; */
+    padding: 20px;
+}
+.parent .card2{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    font-family: Fira Sans;
+    width: 32.5%;
+    padding: 20px;
+}
+.parent .card3{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);  
+    font-family: Fira Sans;
+    width: 32.5%;
+    padding: 20px;
+}
+.btn{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+
+}
+.btn2{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+
+}
+.btn3{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+
+}
+.section{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: Fira Sans;
+}
+.section1{
+    font-size: 40px ;
+    font-family: Fira Sans;
+    color: rgb(14, 14, 14);
+    margin-top: 30px;
+}
+.section2{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.file{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px;
+    gap: 20px;
+    height: 380px;
+   
+}
+.text h1{
+   
+    font-family: Fira Sans;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.text p{
+    font-family:  Fira Sans;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin-top: 12px;
+    
+}
+.text{
+    width:65%
+}
+.btn4{
+    border-radius: 5px;
+    background: rgb(0, 106, 80);
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 32px;
+    color: white ;
+}
+.btn4:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+.hello h1{
+    font-family: Fira Sans;
+    font-size: 40px;
+    text-align: left;
+    color: rgb(14, 14, 14);
+}
+.hello p{
+    font-family: Fira Sans;
+    font-size: 16px;
+    text-align: left;
+    color: rgba(14, 14, 14, 0.7);
+}
+.img{
+    width: 35%;
+    height: 100%;
+    
+}
+.img img{
+    width: 100%;
+    border-radius: 24px;
+    height: 100%;
+}
+.hello{
+   width: 90%;
+   margin: 0 auto;
+}
+.eror{
+    margin-top: 20px ;
+}
+.eror2{
+    margin-top: 20px;
+}
+.alt{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.alt p{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding-top:20px ;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Fira Sans;
+}
+.alt p:hover{
+    background: rgb(198, 228, 214);
+}
+.donate{
+    width: 90%;
+    margin: 0 auto;
+}
+.alt2{
+    background-color: white;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(14, 14, 14, 0.3);
+    padding: 10px;
+    font-family: Fira Sans;
+}
+.btn5{
+    border-radius: 5px;
+    background: rgb(0, 106, 80);
+    padding: 5px 15px;
+    font-size: 15px;
+    font-family: Fira Sans;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    color: white;
+}
+.btn5:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+.home{
+    
+}
+.home1{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px 20px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 21px 12px;
+}
+
+
+
